@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flatacuties</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>🐾 Flatacuties 🐾</h1>
+    <div class="container">
+      <aside id="animal-list"></aside>
+      <main id="animal-details">
+        <h2 id="animal-name">Select an Animal</h2>
+        <img id="animal-image" src="" alt="" />
+        <p>Votes: <span id="vote-count">0</span></p>
+        <button id="vote-button">Vote</button>
+        <button id="reset-button">Reset Votes</button>
+
+        <h3>Add a New Animal</h3>
+        <form id="animal-form">
+          <input type="text" id="new-name" placeholder="Animal Name" required />
+          <input type="url" id="new-image" placeholder="Image URL" required />
+          <button type="submit">Add Animal</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

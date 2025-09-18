@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
