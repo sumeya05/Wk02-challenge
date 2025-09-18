@@ -16,11 +16,13 @@ Flatacuties is a fun web app that lets users vote for the cutest animal! Users c
 
 ### ✅ Requirements
 
+GitHub
+
 ### 📦 Installation Steps
 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/hamida-mstafa/flatacuties.git
-cd flatacuties
+git clone https://github.com/sumeya05/Wk02-challenge
+
 ```
